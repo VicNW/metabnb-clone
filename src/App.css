@@ -1,0 +1,101 @@
+.connect_button {
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  border: none;
+  margin-right: auto;
+}
+
+.search_input {
+  height: 54px;
+  border: 1px solid #A3A3A3;
+  border-radius: 8px 0px 0px 8px;
+  text-indent: 10px;
+}
+
+.search_button {
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  border: none;
+  margin-right: auto;
+  border-radius: 0px 8px 8px 0px;
+  height: 54px;
+}
+
+.hero_text {
+  margin: 100px 150px 0px 0px;
+}
+
+.hero_text strong {
+  color: #A02279;
+}
+
+.three {
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+}
+
+
+li {
+  font-size: 1.2em;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #434343; 
+}
+
+.sec_nav {
+
+}
+
+.card {
+  width: 18.25em;
+}
+
+.card-text {
+  font-size: 0.75em;
+}
+
+.star {
+  width: 5.75em;
+}
+
+.prefooter {
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+}
+
+.prefooter h2 {
+  font-size: 2.8em;
+}
+
+.prefooter p {
+  margin-right: 100px;
+  line-height: 1.8em;
+} 
+.prefooter button{
+  color: #A02279;
+}
+
+.footer_col {
+  width: 25%;
+}
+
+.footer {
+  background-color: #1D1D1E;
+  line-height: 35px;
+}
+
+.footer li {
+  font-size: 0.875em;
+  font-weight: 400;
+ 
+}
+
+.footer strong {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+@media screen and(max-width: 1000px)  {
+  .logo {
+    width: 80%;
+  }
+}
