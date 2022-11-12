@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/metabnb-clone/static/css/main.d1cbf797.css",
-    "main.js": "/metabnb-clone/static/js/main.b24ade1b.js",
+    "main.js": "/metabnb-clone/static/js/main.256324d9.js",
     "static/js/787.ad0da245.chunk.js": "/metabnb-clone/static/js/787.ad0da245.chunk.js",
     "static/media/prefooter.png": "/metabnb-clone/static/media/prefooter.570f8ca84f7bdab882b4.png",
     "static/media/image.png": "/metabnb-clone/static/media/image.0a6b2fd543f6a2906835.png",
@@ -9,11 +9,11 @@
     "static/media/opensea.svg": "/metabnb-clone/static/media/opensea.cfd1ca6b48614b8e5c1fac5ac3688b16.svg",
     "index.html": "/metabnb-clone/index.html",
     "main.d1cbf797.css.map": "/metabnb-clone/static/css/main.d1cbf797.css.map",
-    "main.b24ade1b.js.map": "/metabnb-clone/static/js/main.b24ade1b.js.map",
+    "main.256324d9.js.map": "/metabnb-clone/static/js/main.256324d9.js.map",
     "787.ad0da245.chunk.js.map": "/metabnb-clone/static/js/787.ad0da245.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d1cbf797.css",
-    "static/js/main.b24ade1b.js"
+    "static/js/main.256324d9.js"
   ]
 }
