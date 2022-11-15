@@ -9,7 +9,7 @@ import data from './card_imgs'
 export default function Place_to_stay() {
     const cards = data.map(item =>{
         return (
-            <Card images={item.images} />
+             <Card images={item.images} />
         );
     })
 
@@ -17,7 +17,7 @@ export default function Place_to_stay() {
         <>
             <Navbar />
             <Sec_nav />
-            <div className="container d-flex flex-wrap justify-content-between ">
+            <div className="container d-flex flex-wrap justify-content-center ">
                 {/* <Card /> */}
                 {cards}
             </div>

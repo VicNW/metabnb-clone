@@ -4,12 +4,12 @@ import Hero from './components/hero'
 import Card from './components/card'
 import Footer from './components/footer'
 import Prefooter from './components/prefooter'
-import data from './card_imgs'
+import data from './card_img'
 
 export default function Home() {
     const cards = data.map(item =>{
         return (
-            <Card images={item.images} />
+            <Card images={item.images}  />
         );
     })
     
@@ -17,8 +17,7 @@ export default function Home() {
         <>
             <Navbar />
             <Hero />
-            <div className="container d-flex flex-wrap justify-content-between ">
-                {/* <Card /> */}
+            <div className="container d-flex flex-wrap justify-content-center ">
                 {cards}
             </div>
             <Prefooter />
