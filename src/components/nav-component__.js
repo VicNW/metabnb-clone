@@ -16,11 +16,11 @@ export default function Navbar_component__(props) {
                         <img src={X} />
                         </button> */}
                 <div>
-                    <ul className='list-inline m-auto nav_list '>
-                        <li className='list-inline-item'><Link to = "/">Home</Link></li>
-                        <li className='list-inline-item'><Link to = "/place_to_stay">Place to stay</Link></li>
-                        <li className='list-inline-item'>NFTs</li>
-                        <li className='list-inline-item'>Community</li>
+                    <ul className='list-inline m-auto nav-list w-100'>
+                        <li className='list-inline-item'><Link to = "/" className='mx-2'>Home</Link></li>
+                        <li className='list-inline-item'><Link to = "/place_to_stay" className='mx-2'>Place to stay</Link></li>
+                        <li className='list-inline-item mx-2' >NFTs</li>
+                        <li className='list-inline-item mx-2'>Community</li>
                     </ul>
                 </div>
                 <br className='mx-5'/>

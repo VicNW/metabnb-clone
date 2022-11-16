@@ -8,16 +8,16 @@ export default function Footer() {
     return (
         <div className=' text-white py-5 footer'>
             <div className='container d-flex justify-content-between flex-wrap flex-md-row footer_detail' >
-                <div className='footer_col'>
-                    <img src={Logo} className='mb-md-4 logo '/>
+                <div className='footer_col first'>
+                    <img src={Logo} className=' logo '/>
                     <div className=' mt-md-5 socials mt-2'>
                         <img src={Facebook} />
-                        <img src={Instagram} className=' p-3 p-lg-4'/>
+                        <img src={Instagram} className=' '/>
                         <img src={Twitter} />
                     </div>
                 </div>
                 <div className='d-flex justify-content-md-center footer_col'>
-                    <div classNAme=''>
+                    <div className=''>
                         <li><strong>Community</strong></li>
                         <li>NFT</li>
                         <li>Tokens</li>

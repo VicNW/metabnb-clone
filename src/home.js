@@ -17,7 +17,7 @@ export default function Home() {
         <>
             <Navbar />
             <Hero />
-            <div className="container d-flex flex-wrap justify-content-center ">
+            <div className="container d-grid flex-wrap justify-content-center cards_div my-3">
                 {cards}
             </div>
             <Prefooter />

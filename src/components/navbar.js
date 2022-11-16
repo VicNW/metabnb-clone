@@ -20,18 +20,18 @@ export default function Navbar() {
 
 
     return (
-        <div className='position-fixed head_nav d-flex align-items-center bg-white pb-3'>
+        <div className='position-fixed head_nav d-flex align-items-center justify-content-between bg-white pb-3'>
 
-            <div className='nav_container container d-flex justify-content-between align-items-center pt-3'>
+            <div className='nav_container container d-flex justify-content-between align-items-center '>
         
-                <div>
-                <Link to = "/"><img src={Logo} /></Link>
+                <div className=''>
+                <Link to = "/"><img src={Logo} className="logo_img" /></Link>
                 </div>
                     <Navbar_component__ />
                     <Navbar_component___ />
 
                     <Navbar_component trigger={navView} setTrigger={setNavView} />
-            </div>
+          
                             
 
                         <nav class="navbar hamburger_button d-lg-none me-4 mt-2">
@@ -46,7 +46,7 @@ export default function Navbar() {
 
                                 
                        </nav> 
-                       
+                  </div>       
         </div>
 
 
